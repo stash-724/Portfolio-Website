@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--==================== UNICONS ====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="">
+
+    <link rel="stylesheet" href="assets/img/blobz.min.css">
+
+    <title>Responsive Portfolio Website</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+
+            <a href="#" class="nav__logo">Ankush</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="uil uil-estate nav__icon"></i>Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link ">
+                            <i class="uil uil-file-alt nav__icon"></i>About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link ">
+                            <i class="uil uil-scenery nav__icon"></i>Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#qualification" class="nav__link ">
+                            <i class="uil uil-scenery nav__icon"></i>Qualification
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link ">
+                            <i class="uil uil-scenery nav__icon"></i>Projects
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link ">
+                            <i class="uil uil-message nav__icon"></i>Contact Me
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__btns">
+                <!-- theme change -->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="https://www.linkedin.com/in/ankush-soni-245785220/" target="_blank"
+                                class="home__social-icon">
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
+                            <a href="https://www.codingninjas.com/studio/profile/ankush724" target="_blank"
+                                class="home__social-icon">
+                                <i class="uil uil-arrow"></i>
+                            </a>
+                            <a href="https://github.com/stash-724" target="_blank" class="home__social-icon">
+                                <i class="uil uil-github-alt"></i>
+                            </a>
+                        </div>
+                        <div class="home__img">
+                            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                        130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                        97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                        0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path
+                                        d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                        165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                        129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                        -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                                    <image class="home__blob-img" x="12" y="18" xlink:href="assets/img/d.png">
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="home__data">
+                            <h1 class="home__title">Hi, I'am Ankush</h1>
+                            <h3 class="home__subtitle " >Software Developer</h3>
+                            <p class="home__description"> Programmer, Problem Solver and Computer Engineer. I Always love to learn new things.</p>
+                            <a href="#contact" class="button button--flex">
+                                Contact Me<i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                            <span class="home__scroll-name">Scroll Down</span>
+                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle">My Introduction</span>
+            <div class="about__container container grid">
+                <img src="assets/img/d2.png" alt="" class="about__img">
+                <div class="about__data">
+                    <p class="about__description">Computer Engineer with efficient problem solving skills and versatile development skills. Looking for opportunity to grow carrer in software industry. Hard working and team work believer. </p>
+                    <div class="about__info">
+                        <div>
+                            <span class="about__info-title">6+</span>
+                            <span class="about__info-name">Months<br> Experience</span>
+                        </div>
+                        <div>
+                            <span class="about__info-title">500+</span>
+                            <span class="about__info-name">DSA<br> Questions</span>
+                        </div>
+                        <div>
+                            <span class="about__info-title">7.7+</span>
+                            <span class="about__info-name">GPA<br> Grade</span>
+                        </div>
+                    </div>
+                    <div class="about__buttons">
+                        <a href="https://drive.google.com/file/d/1BZymX4A9RqYk1syqIbennWVpYMtXGPVV/view?usp=drive_link"
+                            target="_blank" class="button button--flex">
+                            Download CV<i class="uil uil-download-alt button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== SKILLS ====================-->
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">My favorite skills</span>
+            <div class="skills__container container grid section__border">
+                <!--==================== SKILLS2 ====================-->
+                <div class="skills__content">
+                    <h3 class="skills__title">
+                        <i class="uil uil-brackets-curly"></i> Web Development
+                    </h3>
+                    <div class="skills__info">
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/svg/html-1.svg" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">HTML</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/svg/css-3.svg" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">CSS</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/svg/javascript-1.svg" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">Javascript</h3>
+                            <span class="skills__subtitle">Beginner</span>
+                        </div>
+                    </div>
+                </div>
+                <!--==================== SKILLS1 ====================-->
+                <div class="skills__content">
+                    <h3 class="skills__title">
+                        <i class="uil uil-brackets-curly"></i> Programming Languages
+                    </h3>
+                    <div class="skills__info">
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/svg/java-4-logo-svgrepo-com.svg" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">Java</h3>
+                            <span class="skills__subtitle">Advance</span>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/svg/cpp.svg" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">cpp</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/svg/python-5.svg" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">Python</h3>
+                            <span class="skills__subtitle">Beginner</span>
+                        </div>
+                    </div>
+                </div>
+                <!--==================== SKILLS4 ====================-->
+                <div class="skills__content">
+                    <h3 class="skills__title">
+                        <i class="uil uil-brackets-curly"></i> Version Control System
+                    </h3>
+                    <div class="skills__info">
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/svg/html-1.svg" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">HTML</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/svg/git-icon.svg" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">Git</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+                    </div>
+                </div>
+                <!--==================== SKILLS3 ====================-->
+                <div class="skills__content">
+                    <h3 class="skills__title">
+                        <i class="uil uil-brackets-curly"></i>Database Management
+                    </h3>
+                    <div class="skills__info">
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/svg/sql.svg" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">SQL</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__blob">
+                                <img src="assets/img/svg/mysql-6.svg" alt="skills image">
+                            </div>
+                            <h3 class="skills__name">MySQL</h3>
+                            <span class="skills__subtitle">Intermediate</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== QUALIFICATION ====================-->
+        <section class="qualification section" id="qualification">
+            <h2 class="section__title">Qualification</h2>
+            <span class="section__subtitle">Experience and Education</span>
+
+            <div class="qualification__container container grid section__border">
+                <!--==================== QUALIFICATION-1====================-->
+                <div class="qualification__content">
+                    <h3 class="qualification__title">
+                        <i class="uil uil-book-open"></i> Education
+                    </h3>
+                    <div class="qualification__info">
+                        <div>
+                            <h3 class="qualification__name">
+                                Bachelor of Engineering
+                            </h3>
+
+                            <span class="qualification__location">Nashik,India</span>
+                            <span class="qualification__year">2017-2021</span>
+                            <!--<p> Completed Computer Engineering from "Sandip Institute of Technology and Research Center" which is affialated to Pune University with 7.73 CGPA.
+                                    </p>-->
+                        </div>
+                    </div>
+                </div>
+                <!--==================== QUALIFICATION-2====================-->
+                <div class="qualification__content">
+                    <h3 class="qualification__title">
+                        <i class="uil uil-building"></i> work
+                    </h3>
+                    <div class="qualification__info">
+                        <div>
+                            <h3 class="qualification__name">
+                                Software Engineer Trainee
+                            </h3>
+                            <span class="qualification__country">Trianz-India</span>
+                            <span class="qualification__year">2021-2022</span>
+                        </div>
+                    </div>
+                </div>
+                <!--==================== QUALIFICATION-3====================-->
+                <div class="qualification__content">
+                    <h3 class="qualification__title">
+                        <i class="uil uil-ruler"></i> Certification and Courses
+                    </h3>
+                    <div class="qualification__info">
+                        <div>
+                            <h3 class="qualification__name">
+                                Basics of Java
+                            </h3>
+                            <span class="qualification__country">Coding Ninjas-India</span>
+                            <span class="qualification__year">2022</span>
+                        </div>
+                        <div>
+                            <h3 class="qualification__name">
+                                OOPS in Java
+                            </h3>
+                            <span class="qualification__country">Coding Ninjas-India</span>
+                            <span class="qualification__year">2022</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- <img src="assets/img/svg/circle.svg" alt="qualification image" class="qualification__img">
+                -->
+        </section>
+        <!--==================== Services =========================-->
+        <section class="services section" id="services">
+            <h2 class="section__title">Projects</h2>
+            <span class="section__subtitle">Recent Projects</span>
+
+            <div class="services__container container grid">
+                <!--==================== Services 1=========================-->
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-web-grid services__icon"></i>
+                        <h3 class="services__title">Portfolio <br> Website</h3>
+                    </div>
+                    
+                    <span class="button button--flex button--small button--link services__button">
+                        View More
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">Responsive Portfolio Website</h4>
+                            <i class="uil uil-times services__modal-close"></i>
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Responsive Personal Portfolio Website Using HTML CSS & JavaScript</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Smooth scrolling in each section.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Includes a light and dark mode.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Developed first with the Mobile First methodology, then for desktop.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Compatible with all mobile devices and with a beautiful and pleasant user interface.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>  
+                <!--==================== Services 2=========================-->    
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-web-grid services__icon"></i>
+                        <h3 class="services__title">Currency<br>Converter</h3>
+                    </div>
+                    
+                    <span class="button button--flex button--small button--link services__button">
+                        View More
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">Currency<br>Converter</h4>
+                            <i class="uil uil-times services__modal-close"></i>
+                            <ul class="services__modal-services grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Currency converter coded in Java programming language.   </p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Web-based interface for converting currency types.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Developed for user input.</p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Uses Ajax, Java Servlet and Web App technologies.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>   
+        </section>
+        <!--==================== CONTACT ME ====================-->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contact Me</h2>
+            <span class="section__subtitle">Get in touch</span>
+            <div class="contact__container container grid">
+                <div>
+                    <div class="contact__information">
+                        <i class="uil uil-phone contact__icon"></i>
+                        <div>
+                            <h3 class="contatct__title">Call me</h3>
+                            <span class="contact__subtitle">+91 8788328801</span>
+                        </div>
+                    </div>
+                    <div class="contact__information">
+                        <i class="uil uil-envelope contact__icon"></i>
+                        <div>
+                            <h3 class="contatct__title">Email</h3>
+                            <span class="contact__subtitle">1ankushsoni@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="contact__information">
+                        <i class="uil uil-map-marker contact__icon"></i>
+                        <div>
+                            <h3 class="contatct__title">Location</h3>
+                            <span class="contact__subtitle">Nahsik, Maharashtra</span>
+                        </div>
+                    </div>
+                </div>
+                <form action="" class="contact__form grid" id ="contact-form">
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Name</label>
+                            <input type="text" name="user_name" class="contact__input" id="contact-name">
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Email</label>
+                            <input type="email" name="user_email"  class="contact__input" id="contact-email">
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">message</label>
+                            <textarea name="user_message" id="contact-message" cols="0" rows="7" 
+                             class="contact__input"></textarea>
+                        </div>
+                        <p class="contact__m" id="contact-message-"></p>
+                        <div class="about__buttons">
+                            <button type="submit" class="contact__button button button--flex">
+                                Send message
+                                <i class="uil uil-message button__icon"></i>
+                            </button>
+                        </div>
+                </form>    
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <a href="#">
+                        <h1 class="footer__title">Ankush</h1>
+                            <span class="footer__subtitle">Software Engineer</span>
+                    </a>
+                </div>
+                <ul class="footer__links">
+                    <li>
+                        <a href="#services" class="footer__link">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#qualification" class="footer__link">Qualification</a>
+                    </li>
+                    <li>
+                        <a href="#skills" class="footer__link">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="footer__link">Contactme</a>
+                    </li>
+                </ul>
+                <div class="footer__socials">
+                    <a href="https://www.instagram.com/ankush__soni__/" target="_blank" class="footer__social">
+                        <i class="uil uil-instagram"></i>
+                    </a>
+                    <a href="https://twitter.com/ankush_soni_" target="_blank" class="footer__social">
+                        <i class="uil uil-twitter-alt"></i>
+                    </a>
+                    <a href="https://www.codingninjas.com/studio/profile/ankush724" target="_blank" class="footer__social">
+                        <i class="uil uil-arrow"></i>
+                    </a> 
+                    
+                </div>
+            </div>
+            <p class="footer__copy">&#169; Ankush. All rights reserved</p>
+        </div>
+    </footer>
+
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--==================== Email JS ====================-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
